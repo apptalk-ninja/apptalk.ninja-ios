@@ -3,9 +3,6 @@ Pod::Spec.new do |s|
   s.version           = '0.8.1'
 
   s.summary           = 'App & Device communication diagnostics'
-  s.description       = <<-DESC
-
-                        DESC
 
   s.homepage          = 'http://apptalk.ninja/'
 
@@ -19,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files      = 'Classes'
   s.requires_arc      = true
 
-  s.frameworks        = 'CoreFoundation', 'SystemConfiguration','CoreData'
+  s.frameworks        = 'CoreFoundation', 'SystemConfiguration','CoreData','UIKit'
   s.libraries         = "z"
 
   s.source_files      = 'ApptalkNinjaSDK.framework/Headers/*.h'
