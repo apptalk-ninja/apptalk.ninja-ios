@@ -1,0 +1,6 @@
+framework module ApptalkNinjaSDK {
+    umbrella header "ApptalkNinjaSDK.h"
+    
+    export *
+    module * { export * }
+}
