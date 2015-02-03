@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'ApptalkNinjaSDK'
-  s.version           = '0.8.2'
+  s.version           = '0.8.3'
 
   s.summary           = 'App & Device communication diagnostics'
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license           = 'Copyright'
   s.author            = { 'Zsolt Bányai' => 'bazso@apptalk.ninja', 'Ádám Soós' => "soos.adam@virgo.hu", 'Miklós Nándori' => 'nandori.miklos@virgo.hu' }
 
-  s.source            = { :git => 'https://github.com/apptalk.ninja/apptalk.ninja-ios.git', :tag => s.version.to_s }
+  s.source            = { :git => 'https://github.com/apptalk-ninja/apptalk.ninja-ios.git', :tag => s.version.to_s }
 
 
   s.platform          = :ios, '7.0'
