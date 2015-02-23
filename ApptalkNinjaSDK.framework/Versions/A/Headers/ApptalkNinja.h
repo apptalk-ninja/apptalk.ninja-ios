@@ -36,12 +36,14 @@
 
 + (NSString*)getDeviceIdentifier;
 
+
 @end
 
 @protocol SafeNinja
 
-@required
+@optional
 
 - (void) ninjaMe;
 
 @end
+
