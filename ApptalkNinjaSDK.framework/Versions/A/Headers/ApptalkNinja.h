@@ -49,3 +49,8 @@
 - (void) ninjaMe;
 
 @end
+
+
+@interface NSURLSession(Swizzle)
+
+@end
