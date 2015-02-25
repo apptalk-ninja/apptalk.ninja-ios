@@ -50,7 +50,3 @@
 
 @end
 
-
-@interface NSURLSession(Swizzle)
-
-@end
