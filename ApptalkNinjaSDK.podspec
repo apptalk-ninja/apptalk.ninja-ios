@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'ApptalkNinjaSDK'
-  s.version           = '0.9.1'
+  s.version           = '0.9.2'
 
   s.summary           = 'App & Device communication diagnostics'
 
@@ -19,10 +19,11 @@ Pod::Spec.new do |s|
   s.frameworks        = 'CoreFoundation', 'SystemConfiguration','CoreData','UIKit'
   s.ios.vendored_frameworks = 'ApptalkNinjaSDK.framework'
   s.libraries         = "z"
-  
+
+  s.xcconfig          = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
 
   s.source_files      = 'ApptalkNinjaSDK.framework/Versions/A/Headers/*.h'
 
-  s.preserve_paths = 'ApptalkNinjaSDK.framework'
+  s.preserve_paths    = 'ApptalkNinjaSDK.framework'
 
 end
