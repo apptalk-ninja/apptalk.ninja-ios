@@ -30,20 +30,22 @@
 
 + (void)enableWiFiMode:(BOOL)wifiMode;
 
++ (void)enableExperimentalMode:(BOOL)experimentalmode;
+
 + (BOOL)isSafeMode;
+
++ (BOOL)isExperimentalMode;
 
 + (void)useForDeviceIdentifier:(NSString *) deviceId;
 
 + (NSString*)getDeviceIdentifier;
 
-
 @end
 
 @protocol SafeNinja
 
-@optional
+@required
 
 - (void) ninjaMe;
 
 @end
-
