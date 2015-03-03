@@ -40,6 +40,14 @@
 
 + (NSString*)getDeviceIdentifier;
 
++ (void)disableHTTPMonitoring:(BOOL)monitoringMode;
+
++ (void)disableDeviceMonitoring:(BOOL)deviceMode;
+
++ (BOOL)isDeviceMonitoring;
+
++ (BOOL)isHTTPMonitoring;
+
 @end
 
 @protocol SafeNinja
