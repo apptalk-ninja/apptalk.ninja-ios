@@ -1,8 +1,8 @@
 //
-//  TestJockeySDK.h
-//  TestJockeySDK
+//  ApptalkNinjaSDK.h
+//  ApptalkNinjaSDK
 //
-//  Copyright (c) 2013 Virgo Systems Ltd. All rights reserved.
+//  Copyright (c) 2015 Virgo Systems Ltd. All rights reserved.
 //
 
 #define APPTALKNINJA_SDK_VERSION "1.0.0"
