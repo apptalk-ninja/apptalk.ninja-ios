@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'ApptalkNinjaSDK'
-  s.version           = '0.9.3.8'
+  s.version           = '0.9.3.9'
 
   s.summary           = 'App & Device communication diagnostics'
 
