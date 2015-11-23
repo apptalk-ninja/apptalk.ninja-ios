@@ -9,4 +9,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ApptalkNinjaSDK/ApptalkNinja.h>
+#import "ApptalkNinja.h"

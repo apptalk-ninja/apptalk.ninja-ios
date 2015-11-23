@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name              = 'ApptalkNinjaSDK'
-  s.version           = '0.9.4'
+  s.version           = '0.9.5'
 
   s.summary           = 'App & Device communication diagnostics'
 
-  s.homepage          = 'http://apptalk.ninja/'
+  s.homepage          = 'https://beta.apptalk.ninja/'
 
   s.license           = 'Copyright'
   s.author            = { 'Zsolt Bányai' => 'bazso@apptalk.ninja', 'Ádám Soós' => "soos.adam@virgo.hu", 'Miklós Nándori' => 'nandori.miklos@virgo.hu' }
